@@ -1,0 +1,50 @@
+:root {
+  --color-midnight-navy: #0b1120; /*Background principal da página*/
+
+  --color-slate: #111827; /*Superfícies, cards e áreas secundárias*/
+
+  --color-slate-light: Slate Light #334155; /*Bordas e divisores*/
+
+  --color-white: #f8fafc; /*Textos principais e elementos de destaque*/
+
+  --color-gray: #cbd5e1; /*Textos secundários e descrições*/
+
+  --color-electric-blue: #2563eb; /*Cor primária, destaques e elementos de ação*/
+
+  --color-cyan: #06b6d4; /*Cor secundária e elementos de destaque*/
+
+  --color-emerald: #10b981; /*CTAs principais*/
+
+  --color-emerald-dark: #059669; /*Estado de hover dos CTAs*/
+
+  --glow: rgba(37,99,235,.25);
+
+  --fonte-titulo-principal: Space Grotesk; /*Títulos e elementos de destaque */ 
+
+  --fonte-titulo-secundaria: Sora; /*Subtítulos e títulos secundários*/ 
+
+  --fonte-texto:	Inter; /*Textos e elementos da interface*/ 
+
+  /* Gradiente do Hero
+    Cores: Electric Blue → Cyan / #2563EB → #06B6D4
+
+    Utilizado em:
+    Hero;
+    elementos visuais de destaque relacionados ao Hero. 
+
+    */
+
+
+  /* Gradiente de Elementos de Destaque
+    Cores: Cyan → Purple
+
+    #06B6D4 → #8B5CF6
+
+    Utilizado em:
+    elementos de destaque;
+    elementos decorativos da interface.
+*/
+
+}
+
+
