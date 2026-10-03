@@ -1,14 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="\src\css\style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a54c631c74.js"
+      crossorigin="anonymous"
+    ></script>
     <title>AutoMind</title>
-</head>
+  </head>
 
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="container-logo">
+          <!-- Logo -->
 
-<body>
-  
-</body>
+          <div class="icon-container">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+
+          <a href="/" class="header-logo"> </a>
+          <span class="header-logo">AutoMind</span>
+        </div>
+
+        <!-- Navegação -->
+        <nav class="header-nav" aria-label="Navegação principal">
+          <ul class="header-menu">
+            <li class="header-item">
+              <a href="/beneficios" class="header-link"> Beneficios </a>
+            </li>
+
+            <li class="header-item">
+              <a href="/como-funciona" class="header-link"> Como funciona </a>
+            </li>
+
+            <li class="header-item">
+              <a href="#faq" class="header-link"> FAQ </a>
+            </li>
+
+            <!-- ADICIONADO -->
+            <li class="header-item header-mobile-button">
+              <a href="/cadastro" class="header-button">
+                Agendar demonstração
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Ações -->
+        <div class="header-actions">
+          <a href="/cadastro" class="header-button"> Agendar demonstração </a>
+        </div>
+
+        <!-- Menu mobile -->
+        <button
+          class="header-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-container">
+          <span class="hero-tag">IA Personalizada para Empresas</span>
+
+          <h1 class="hero-title">
+            Seu próximo colaborador trabalha
+            <span class="span-24">24 horas por dia.</span>
+          </h1>
+
+          <p class="hero-text">
+            Criamos Agentes de IA personalizados que atendem clientes,
+            automatizam tarefas e aumentam a produtividade da sua empresa - sem
+            precisar ampliar a equipe.
+          </p>
+
+          <div class="hero-actions">
+            <a href="/cadastro" class="hero-button"
+              >Agendar Demonstração Gratuita ➝</a
+            >
+            <a href="#como-funciona" class="hero-link">Ver como funciona</a>
+          </div>
+          <div class="hero-proof">
+            <div class="hero-avatars">
+            <img src="src/img/pessoa_fernando.jpg" alt="" width="40" height="40">
+              <img src="src/img/pessoa_camila.jpg" alt="" width="40" height="40">
+              <img src="src/img/pessoa_ricardo.jpg" alt="" width="40" height="40">
+
+            </div>
+            <p class="hero-proof-text">
+              <strong>+150 empresas</strong> já automatizaram com a AutoMind
+            </p>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-img-box">
+              <img src="./src/img/hero_img_600.jpg" alt="Rede neural representando a IA da AutoMind"/>
+              <span class="hero-status">
+                <span class="hero-status-dot"></span>
+                Agente ativo - Atendendo
+              </span>
+            </div>
+
+            <div class="hero-stat hero-stat--top">
+              <span class="hero-stat-label">Satisfação</span>
+              <span class="hero-stat-value">98%</span>
+            </div>
+
+            <div class="hero-stat hero-stat--bottom">
+              <span class="hero-stat-label">Produtividade</span>
+              <span class="hero-stat-value">3x mais</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>

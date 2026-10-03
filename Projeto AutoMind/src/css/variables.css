@@ -1,50 +1,45 @@
 :root {
-  --color-midnight-navy: #0b1120; /*Background principal da página*/
+    /* Paleta de cores */
+    --cor-background-principal: #0B1120;
+    --cor-background-secundario: #111827;
+    --cor-borda: #334155;
+    --cor-texto-principal: #F8FAFC;
+    --cor-texto-secundario: #CBD5E1;
+    --cor-principal: #2563EB;
+    --cor-secundaria: #06B6D4;
+    --cor-destaque: #10B981;
+    --cor-destaque-hover: #059669;
 
-  --color-slate: #111827; /*Superfícies, cards e áreas secundárias*/
+    /* Gradientes */
+    --gradiente-principal-180: linear-gradient(180deg, #2563EB 0%, #06B6D4 100%);
+    --gradiente-principal-135: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+    --gradiente-secundario: linear-gradient(135deg, rgba(37, 99, 235, 0.13) 0%, rgba(6, 182, 212, 0.13) 100%);
 
-  --color-slate-light: Slate Light #334155; /*Bordas e divisores*/
+    /* Tipografia */
+    --fonte-titulo-principal: "Space Grotesk", sans-serif;
+    --fonte-titulo-secundaria: "Sora", sans-serif;
+    --fonte-texto: "Inter", sans-serif;
 
-  --color-white: #f8fafc; /*Textos principais e elementos de destaque*/
+    --fonte-tamanho-hero: clamp(2.25rem, 5vw, 3.75rem);
+    --fonte-tamanho-titulo: clamp(1.875rem, 5vw, 2.25rem);
+    --fonte-tamanho-subtitulo: 1.125rem;
+    --fonte-tamanho-texto: 1rem;
+    --fonte-tamanho-texto-sm: .875rem;
 
-  --color-gray: #cbd5e1; /*Textos secundários e descrições*/
+    /* Espaçamento */
+    --espacamento-1: 8px;
+    --espacamento-2: 16px;
+    --espacamento-3: 24px;
+    --espacamento-4: 32px;
+    --espacamento-5: 48px;
+    --espacamento-6: 64px;
 
-  --color-electric-blue: #2563eb; /*Cor primária, destaques e elementos de ação*/
+    /* Bordas */
+    --borda: 0.8px solid #334155;
+    --borda-opacidade: 0.8px solid rgba(37, 99, 235, 0.27);
 
-  --color-cyan: #06b6d4; /*Cor secundária e elementos de destaque*/
-
-  --color-emerald: #10b981; /*CTAs principais*/
-
-  --color-emerald-dark: #059669; /*Estado de hover dos CTAs*/
-
-  --glow: rgba(37,99,235,.25);
-
-  --fonte-titulo-principal: Space Grotesk; /*Títulos e elementos de destaque */ 
-
-  --fonte-titulo-secundaria: Sora; /*Subtítulos e títulos secundários*/ 
-
-  --fonte-texto:	Inter; /*Textos e elementos da interface*/ 
-
-  /* Gradiente do Hero
-    Cores: Electric Blue → Cyan / #2563EB → #06B6D4
-
-    Utilizado em:
-    Hero;
-    elementos visuais de destaque relacionados ao Hero. 
-
-    */
-
-
-  /* Gradiente de Elementos de Destaque
-    Cores: Cyan → Purple
-
-    #06B6D4 → #8B5CF6
-
-    Utilizado em:
-    elementos de destaque;
-    elementos decorativos da interface.
-*/
-
+    --borda-radius-sm: 12px;
+    --borda-radius-md: 20px;
 }
 
 
